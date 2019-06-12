@@ -1,7 +1,7 @@
 # RESTful API Specification
 RESTFul(**Representational State Transfer**) 是一种技术风格，大概是定义了通信框架定义时的一些约束条件和原则，应用到HTTP通信协议上时强调的就是URI的语义化，自我描述性，调用者能够从URI上清楚地识别出该API所具有的功能以及可能产生的副作用。
 
-## Version：版本
+## Version：版本（Must）
 URI中包含版本号能够帮助我们更好的进行版本控制，通常API版本号指的是形如：v1.2.3中的1，并且版本号更高的API是不会向下兼容的，此处version允许的取值是：v{n}, 其中n是大于等于1的整数
 - URI Template
 > /{version}/
