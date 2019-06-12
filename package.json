@@ -28,7 +28,7 @@
     "vuepress": "^1.0.0-alpha.44"
   },
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": ">=0.18.1",
     "webpack-dev-middleware": "3.6.0"
   }
 }

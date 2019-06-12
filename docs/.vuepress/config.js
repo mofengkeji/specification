@@ -7,10 +7,18 @@ module.exports = {
     sidebarDepth: 3,
     sidebar: [
       {
-        title: 'RESTFul',
-        path: '/restful',
+        title: 'Specification',
+        path: '/',
         collapsable: false,
-        sidebarDepth: 3
+        sidebarDepth: 3,
+        children: []
+      },
+      {
+        title: 'RESTFul',
+        path: '/restful/',
+        collapsable: false,
+        sidebarDepth: 3,
+        children: []
       }
     ]
   }
